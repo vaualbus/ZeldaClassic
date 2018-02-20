@@ -1583,6 +1583,8 @@ int black_opening_count=0;
 int black_opening_x,black_opening_y;
 int black_opening_shape;
 
+//NOTE(vaulbus): This can be optimized using instrinsic function
+// for count the number of bit set! 20/02/18
 int choose_opening_shape()
 {
     // First, count how many bits are set
